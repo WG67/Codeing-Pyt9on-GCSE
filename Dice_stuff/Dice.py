@@ -279,10 +279,6 @@ print("'''''''''''''''''''''''")
 print("''''''''RESULTS''''''''")
 print("'''''''''''''''''''''''")
  
-print(number + number3)
-
-print(number2 + number4)
- 
 print("End of Round 1")
  
 if (number + number3 % 2) == 0:
@@ -294,8 +290,13 @@ if (number2 + number4 % 2) == 0:
   print(name2,"{0} is Even".format(number2 + number4 + 10))
 else:
   print(name2,"{0} is Odd".format(number2 + number4 - 5))
- 
- 
+
+if number + number3 - 5 < 1: 
+  print("This is invalid")
+
+if number2 + number4 - 5 < 1: 
+  print("This is invalid")
+
 if number + number3 > number2 + number4:
       print (name1, "has won round 1")
 elif number + number3 == number2 + number4:
