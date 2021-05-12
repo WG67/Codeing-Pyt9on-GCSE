@@ -34,14 +34,14 @@ name1 = input("what is your name player 1, ")
 name2 = input("what is your name player 2, ")
  
 #this is the part where the dice is rolled for player one
+for score in range(5):
+  print ("This is a dice rolling progarm")
+  for i in range(1):
+    player1 = input("press enter to roll player 1")
+  number = random.randint(1,6)
  
-print ("This is a dice rolling progarm")
-for i in range(1):
-  player1 = input("press enter to roll player 1")
-number = random.randint(1,6)
  
- 
-if number==1:
+  if number==1:
        print ("[———----]")
        print ("[       ]")
        print ("[   0   ]")
@@ -50,7 +50,7 @@ if number==1:
  
  
  
-if number==2:
+  if number==2:
        print ("[———----]")
        print ("[   0   ]")
        print ("[       ]")
@@ -58,7 +58,7 @@ if number==2:
        print ("[———----]")
  
  
-if number==3:
+  if number==3:
        print ("[———----]")
        print ("[     0 ]")
        print ("[   0   ]")
@@ -66,14 +66,14 @@ if number==3:
        print ("[———----]")
  
  
-if number==4:
+  if number==4:
        print ("[———----]")
        print ("[ 0   0 ]")
        print ("[       ]")
        print ("[ 0   0 ]")
        print ("[———----]")
  
-if number==5:
+  if number==5:
        print ("[———----]")
        print ("[ 0   0 ]")
        print ("[   0   ]")
@@ -81,21 +81,21 @@ if number==5:
        print ("[———----]")
  
  
-if number==6:
+  if number==6:
        print ("[———----]")
        print ("[ 0 0 0 ]")
        print ("[       ]")
        print ("[ 0 0 0 ]")
        print ("[———----]")
  
-print("Player 1 rolled", number)
+  print("Player 1 rolled", number)
  
-for i in range(1):
-  player2 = input("press enter to roll Player 2")
-number2 = random.randint(1,6)
+  for i in range(1):
+    player2 = input("press enter to roll Player 2")
+  number2 = random.randint(1,6)
 #this is the part where the dice is rolled for player two
  
-if number2==1:
+  if number2==1:
        print ("[———----]")
        print ("[       ]")
        print ("[   0   ]")
@@ -104,7 +104,7 @@ if number2==1:
  
  
  
-if number2==2:
+  if number2==2:
        print ("[———----]")
        print ("[   0   ]")
        print ("[       ]")
@@ -112,7 +112,7 @@ if number2==2:
        print ("[———----]")
  
  
-if number2==3:
+  if number2==3:
        print ("[———----]")
        print ("[     0 ]")
        print ("[   0   ]")
@@ -120,14 +120,14 @@ if number2==3:
        print ("[———----]")
  
  
-if number2==4:
+  if number2==4:
        print ("[———----]")
        print ("[ 0   0 ]")
        print ("[       ]")
        print ("[ 0   0 ]")
        print ("[———----]")
  
-if number2==5:
+  if number2==5:
        print ("[———----]")
        print ("[ 0   0 ]")
        print ("[   0   ]")
@@ -135,26 +135,27 @@ if number2==5:
        print ("[———----]")
  
  
-if number2==6:
+  if number2==6:
        print ("[———----]")
        print ("[ 0 0 0 ]")
        print ("[       ]")
        print ("[ 0 0 0 ]")
        print ("[———----]")
  
-print("Player 2 rolled", number2)
+  print("Player 2 rolled", number2)
  
-print("'''''''''''''''''''''''")
-print("''''''''RESULTS''''''''")
-print("'''''''''''''''''''''''")
+  print("'''''''''''''''''''''''")
+  print("''''''''RESULTS''''''''")
+  print("'''''''''''''''''''''''")
  
  
  
-print("End of Round 1")
+  print("End of Round 1")
  
-print(name1,"Has rolled",number)
+  print(name1,"Has rolled",number)
  
-print(name2,"Has rolled",number2)
+  print(name2,"Has rolled",number2)
+
  
 if number > number2:
       print (name1, "has won round 1")
@@ -303,5 +304,4 @@ elif number + number3 == number2 + number4:
       print ("round 1 is a tie")
 else:
       print(name2, "has won round 1")
-
-#hello world
+#hello World
