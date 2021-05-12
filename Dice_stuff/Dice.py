@@ -155,8 +155,7 @@ for score in range(5):
   print(name1,"Has rolled",number)
  
   print(name2,"Has rolled",number2)
-  number = number + 1
-  number2 = number2 + 1
+
  
 if number > number2:
       print (name1, "has won round 1")
