@@ -1,4 +1,4 @@
-print("hello world")    
+hello = input("hello world: ")    
 if input == "hello":
     print("world")
 else:
