@@ -1,5 +1,5 @@
 print("hello world")    
- if input = "hello"
+if input == "hello":
     print("world")
 else:
     print("Goodbye")
