@@ -1,5 +1,10 @@
-hello = input("hello world: ")    
-if input == "hello":
-    print("world")
-else:
-    print("Goodbye")
+#number guessing game
+print("Welcome to a game!")
+
+number = int(input('Please enter a number. '))
+
+print(number)
+
+
+
+
